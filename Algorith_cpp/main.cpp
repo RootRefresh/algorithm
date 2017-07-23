@@ -12,9 +12,9 @@
 
 using namespace std;
 
-void test_1_0_1()
+void test_1_0_2()
 {
-    cout << "1.0.1" << endl;
+    cout << "1.0.2" << endl;
 }
 
 int main(int argc, const char * argv[]) {
