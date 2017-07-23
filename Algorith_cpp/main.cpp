@@ -14,7 +14,7 @@ using namespace std;
 
 void test_1_0_1()
 {
-    cout << "2.3.1" << endl;
+    cout << "1.0.1" << endl;
 }
 
 int main(int argc, const char * argv[]) {
