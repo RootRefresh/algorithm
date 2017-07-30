@@ -16,6 +16,8 @@ void test_1_0_2()
 {
     cout << "1.0.2" << endl;
     cout << "1.0.3" << endl;
+    cout << "1.0.4" << endl;
+
 
 }
 
