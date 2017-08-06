@@ -10,6 +10,9 @@
 
 #include "MinStack.hpp"
 
+#include "TwoStackQueue.hpp"
+
+#include "ReverseStackByRecursion.hpp"
 using namespace std;
 
 void test_1_0_2()
@@ -23,19 +26,51 @@ void test_1_0_2()
 
 int main(int argc, const char * argv[]) {
   
-    int arr[] = {2,1,5,4};
+    int arr[] = {1,2,3};
+    //最小值栈
+//    MinStack s;
+//    
+//    for (int i = 0; i< 4; i++) {
+//        s.push(arr[i]);
+//    }
+//    while (!s.empty()) {
+//        
+//        cout << s.getMin() << endl;
+//        s.pop();
+//    }
     
-    MinStack s;
+    //两个栈模拟队列
+//    TwoStackQueue queue;
+//    
+//    for (int i = 0; i< 4; i++) {
+//        queue.add(arr[i]);
+//    }
+//    
+//
+//    for (int i = 0; i< 4; i++) {
+//        cout << queue.peek() << endl;
+//       
+//        if (i==2) {
+//            queue.add(8);
+//        }
+//
+//        cout << queue.poll() << endl;
+//
+//    }
+//    cout << queue.poll() << endl;
+
     
-    for (int i = 0; i< 4; i++) {
-        s.push(arr[i]);
+    ReverseStack rStack;
+    
+    for (int i = 0; i< 3; i++) {
+        rStack.push(arr[i]);
     }
-    while (!s.empty()) {
-        
-        cout << s.getMin() << endl;
-        s.pop();
-    }
+//    rStack.traversal();
+
+    rStack.reverse();
     
-    
+    rStack.traversal();
+
+
     return 0;
 }

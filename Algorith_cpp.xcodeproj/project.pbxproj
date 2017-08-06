@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D36AAD61F37789400487213 /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D36AAD41F37789400487213 /* Cat.cpp */; };
 		7D5911A61F20F199002DF19C /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D5911A41F20F199002DF19C /* MinStack.cpp */; };
+		7D9C98931F337471000856BD /* CatDogQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C98911F337471000856BD /* CatDogQueue.cpp */; };
+		7D9C98961F33747A000856BD /* Pet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C98941F33747A000856BD /* Pet.cpp */; };
+		7D9C98991F33769C000856BD /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C98971F33769C000856BD /* Dog.cpp */; };
 		7DBEB8D51F0FE8AF00463A2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DBEB8D41F0FE8AF00463A2C /* main.cpp */; };
+		7DF9E9BC1F30CC840069B1F5 /* TwoStackQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9E9BA1F30CC840069B1F5 /* TwoStackQueue.cpp */; };
+		7DF9E9BF1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9E9BD1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +30,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7D36AAD41F37789400487213 /* Cat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cat.cpp; sourceTree = "<group>"; };
+		7D36AAD51F37789400487213 /* Cat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cat.hpp; sourceTree = "<group>"; };
 		7D5911A41F20F199002DF19C /* MinStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
 		7D5911A51F20F199002DF19C /* MinStack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MinStack.hpp; sourceTree = "<group>"; };
+		7D9C98911F337471000856BD /* CatDogQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CatDogQueue.cpp; sourceTree = "<group>"; };
+		7D9C98921F337471000856BD /* CatDogQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CatDogQueue.hpp; sourceTree = "<group>"; };
+		7D9C98941F33747A000856BD /* Pet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pet.cpp; sourceTree = "<group>"; };
+		7D9C98951F33747A000856BD /* Pet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pet.hpp; sourceTree = "<group>"; };
+		7D9C98971F33769C000856BD /* Dog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dog.cpp; sourceTree = "<group>"; };
+		7D9C98981F33769C000856BD /* Dog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dog.hpp; sourceTree = "<group>"; };
 		7DBEB8D11F0FE8AF00463A2C /* Algorith_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorith_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBEB8D41F0FE8AF00463A2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7DF9E9BA1F30CC840069B1F5 /* TwoStackQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoStackQueue.cpp; sourceTree = "<group>"; };
+		7DF9E9BB1F30CC840069B1F5 /* TwoStackQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TwoStackQueue.hpp; sourceTree = "<group>"; };
+		7DF9E9BD1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseStackByRecursion.cpp; sourceTree = "<group>"; };
+		7DF9E9BE1F30D6A60069B1F5 /* ReverseStackByRecursion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ReverseStackByRecursion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D9C98901F337471000856BD /* CatDogQueueAbout */ = {
+			isa = PBXGroup;
+			children = (
+				7D9C98911F337471000856BD /* CatDogQueue.cpp */,
+				7D9C98921F337471000856BD /* CatDogQueue.hpp */,
+				7D9C98941F33747A000856BD /* Pet.cpp */,
+				7D9C98951F33747A000856BD /* Pet.hpp */,
+				7D9C98971F33769C000856BD /* Dog.cpp */,
+				7D9C98981F33769C000856BD /* Dog.hpp */,
+				7D36AAD41F37789400487213 /* Cat.cpp */,
+				7D36AAD51F37789400487213 /* Cat.hpp */,
+			);
+			path = CatDogQueueAbout;
+			sourceTree = "<group>";
+		};
 		7DBEB8C81F0FE8AF00463A2C = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +93,12 @@
 		7DBEB8D31F0FE8AF00463A2C /* Algorith_cpp */ = {
 			isa = PBXGroup;
 			children = (
+				7D9C98901F337471000856BD /* CatDogQueueAbout */,
 				7DBEB8D41F0FE8AF00463A2C /* main.cpp */,
+				7DF9E9BD1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp */,
+				7DF9E9BE1F30D6A60069B1F5 /* ReverseStackByRecursion.hpp */,
+				7DF9E9BA1F30CC840069B1F5 /* TwoStackQueue.cpp */,
+				7DF9E9BB1F30CC840069B1F5 /* TwoStackQueue.hpp */,
 				7D5911A41F20F199002DF19C /* MinStack.cpp */,
 				7D5911A51F20F199002DF19C /* MinStack.hpp */,
 			);
@@ -124,8 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D36AAD61F37789400487213 /* Cat.cpp in Sources */,
 				7DBEB8D51F0FE8AF00463A2C /* main.cpp in Sources */,
+				7D9C98991F33769C000856BD /* Dog.cpp in Sources */,
+				7D9C98931F337471000856BD /* CatDogQueue.cpp in Sources */,
+				7DF9E9BC1F30CC840069B1F5 /* TwoStackQueue.cpp in Sources */,
+				7D9C98961F33747A000856BD /* Pet.cpp in Sources */,
 				7D5911A61F20F199002DF19C /* MinStack.cpp in Sources */,
+				7DF9E9BF1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
