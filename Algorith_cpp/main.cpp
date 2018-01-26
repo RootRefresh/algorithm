@@ -13,6 +13,10 @@
 #include "TwoStackQueue.hpp"
 
 #include "ReverseStackByRecursion.hpp"
+
+#include "utils.hpp"
+#include "InsertSort.hpp"
+#include "MergeSort.hpp"
 using namespace std;
 
 void test_1_0_2()
@@ -26,6 +30,10 @@ void test_1_0_2()
 
 int main(int argc, const char * argv[]) {
   
+    int arr2[] = {3,6,2,8,5,4};
+//    insertSort(arr2, 6);
+    mergeSort(arr2, 0, 5);
+    
     int arr[] = {1,2,3};
     //最小值栈
 //    MinStack s;
@@ -60,16 +68,16 @@ int main(int argc, const char * argv[]) {
 //    cout << queue.poll() << endl;
 
     
-    ReverseStack rStack;
-    
-    for (int i = 0; i< 3; i++) {
-        rStack.push(arr[i]);
-    }
+//    ReverseStack rStack;
+//
+//    for (int i = 0; i< 3; i++) {
+//        rStack.push(arr[i]);
+//    }
 //    rStack.traversal();
 
-    rStack.reverse();
-    
-    rStack.traversal();
+//    rStack.reverse();
+//
+//    rStack.traversal();
 
 
     return 0;

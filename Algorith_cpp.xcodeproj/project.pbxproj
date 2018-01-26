@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E62D43201B12B000A81145 /* InsertSort.cpp */; };
+		07E62D48201B239000A81145 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E62D46201B239000A81145 /* MergeSort.cpp */; };
+		07E62D4B201B293500A81145 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E62D49201B293500A81145 /* utils.cpp */; };
 		7D36AAD61F37789400487213 /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D36AAD41F37789400487213 /* Cat.cpp */; };
 		7D5911A61F20F199002DF19C /* MinStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D5911A41F20F199002DF19C /* MinStack.cpp */; };
 		7D9C98931F337471000856BD /* CatDogQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D9C98911F337471000856BD /* CatDogQueue.cpp */; };
@@ -30,6 +33,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07E62D43201B12B000A81145 /* InsertSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertSort.cpp; sourceTree = "<group>"; };
+		07E62D44201B12B000A81145 /* InsertSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InsertSort.hpp; sourceTree = "<group>"; };
+		07E62D46201B239000A81145 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		07E62D47201B239000A81145 /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
+		07E62D49201B293500A81145 /* utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		07E62D4A201B293500A81145 /* utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = utils.hpp; sourceTree = "<group>"; };
 		7D36AAD41F37789400487213 /* Cat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cat.cpp; sourceTree = "<group>"; };
 		7D36AAD51F37789400487213 /* Cat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cat.hpp; sourceTree = "<group>"; };
 		7D5911A41F20F199002DF19C /* MinStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinStack.cpp; sourceTree = "<group>"; };
@@ -59,6 +68,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07E62D40201B124E00A81145 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				07E62D43201B12B000A81145 /* InsertSort.cpp */,
+				07E62D44201B12B000A81145 /* InsertSort.hpp */,
+				07E62D46201B239000A81145 /* MergeSort.cpp */,
+				07E62D47201B239000A81145 /* MergeSort.hpp */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		7D9C98901F337471000856BD /* CatDogQueueAbout */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +113,7 @@
 		7DBEB8D31F0FE8AF00463A2C /* Algorith_cpp */ = {
 			isa = PBXGroup;
 			children = (
+				07E62D40201B124E00A81145 /* Sort */,
 				7D9C98901F337471000856BD /* CatDogQueueAbout */,
 				7DBEB8D41F0FE8AF00463A2C /* main.cpp */,
 				7DF9E9BD1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp */,
@@ -101,6 +122,8 @@
 				7DF9E9BB1F30CC840069B1F5 /* TwoStackQueue.hpp */,
 				7D5911A41F20F199002DF19C /* MinStack.cpp */,
 				7D5911A51F20F199002DF19C /* MinStack.hpp */,
+				07E62D49201B293500A81145 /* utils.cpp */,
+				07E62D4A201B293500A81145 /* utils.hpp */,
 			);
 			path = Algorith_cpp;
 			sourceTree = "<group>";
@@ -166,9 +189,12 @@
 				7DBEB8D51F0FE8AF00463A2C /* main.cpp in Sources */,
 				7D9C98991F33769C000856BD /* Dog.cpp in Sources */,
 				7D9C98931F337471000856BD /* CatDogQueue.cpp in Sources */,
+				07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */,
 				7DF9E9BC1F30CC840069B1F5 /* TwoStackQueue.cpp in Sources */,
+				07E62D4B201B293500A81145 /* utils.cpp in Sources */,
 				7D9C98961F33747A000856BD /* Pet.cpp in Sources */,
 				7D5911A61F20F199002DF19C /* MinStack.cpp in Sources */,
+				07E62D48201B239000A81145 /* MergeSort.cpp in Sources */,
 				7DF9E9BF1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
