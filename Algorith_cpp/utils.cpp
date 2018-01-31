@@ -7,7 +7,12 @@
 //
 
 #include "utils.hpp"
-
+void exchange(int *a,int *b)
+{
+    int c = *a ^ *b;
+    *b = *b ^ c ;
+    *a = *a ^ c;
+}
 
 void printRange(int *a, int begin, int end)
 {

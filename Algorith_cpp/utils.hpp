@@ -13,6 +13,7 @@
 #include <iostream>
 using namespace std;
 
+void exchange(int *a,int *b);
 void printRange(int *a, int begin, int end);
 void printOut(int *a, int n);
 

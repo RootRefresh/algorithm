@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void heapSort(int *a, int n);
+
 #endif /* HeapSort_hpp */

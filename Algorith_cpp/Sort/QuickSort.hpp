@@ -11,4 +11,7 @@
 
 #include <stdio.h>
 
+void quickSort(int *a, int begin, int end);
+
+
 #endif /* QuickSort_hpp */
