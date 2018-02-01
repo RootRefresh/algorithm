@@ -12,6 +12,11 @@
 		07DF609E2021666700847D82 /* TwoStackSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF609C2021666700847D82 /* TwoStackSort.cpp */; };
 		07DF60A12021A4D900847D82 /* MaxWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF609F2021A4D900847D82 /* MaxWindow.cpp */; };
 		07DF60A52021B95900847D82 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60A32021B95900847D82 /* Node.cpp */; };
+		07DF60AD2022D84500847D82 /* SortedListPublicNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60AB2022D84500847D82 /* SortedListPublicNode.cpp */; };
+		07DF60B02022E0A300847D82 /* removeListNodeLastK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60AE2022E0A300847D82 /* removeListNodeLastK.cpp */; };
+		07DF60B32022F4FF00847D82 /* removeMidNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60B12022F4FF00847D82 /* removeMidNode.cpp */; };
+		07DF60B9202301BD00847D82 /* RemoveByRatio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60B7202301BD00847D82 /* RemoveByRatio.cpp */; };
+		07DF60BC202307DE00847D82 /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60BA202307DE00847D82 /* ReverseList.cpp */; };
 		07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E62D43201B12B000A81145 /* InsertSort.cpp */; };
 		07E62D48201B239000A81145 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E62D46201B239000A81145 /* MergeSort.cpp */; };
 		07E62D4B201B293500A81145 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E62D49201B293500A81145 /* utils.cpp */; };
@@ -48,6 +53,16 @@
 		07DF60A02021A4D900847D82 /* MaxWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxWindow.hpp; sourceTree = "<group>"; };
 		07DF60A32021B95900847D82 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		07DF60A42021B95900847D82 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		07DF60AB2022D84500847D82 /* SortedListPublicNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortedListPublicNode.cpp; sourceTree = "<group>"; };
+		07DF60AC2022D84500847D82 /* SortedListPublicNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortedListPublicNode.hpp; sourceTree = "<group>"; };
+		07DF60AE2022E0A300847D82 /* removeListNodeLastK.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = removeListNodeLastK.cpp; sourceTree = "<group>"; };
+		07DF60AF2022E0A300847D82 /* removeListNodeLastK.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = removeListNodeLastK.hpp; sourceTree = "<group>"; };
+		07DF60B12022F4FF00847D82 /* removeMidNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = removeMidNode.cpp; sourceTree = "<group>"; };
+		07DF60B22022F4FF00847D82 /* removeMidNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = removeMidNode.hpp; sourceTree = "<group>"; };
+		07DF60B7202301BD00847D82 /* RemoveByRatio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveByRatio.cpp; sourceTree = "<group>"; };
+		07DF60B8202301BD00847D82 /* RemoveByRatio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveByRatio.hpp; sourceTree = "<group>"; };
+		07DF60BA202307DE00847D82 /* ReverseList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseList.cpp; sourceTree = "<group>"; };
+		07DF60BB202307DE00847D82 /* ReverseList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseList.hpp; sourceTree = "<group>"; };
 		07E62D43201B12B000A81145 /* InsertSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertSort.cpp; sourceTree = "<group>"; };
 		07E62D44201B12B000A81145 /* InsertSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InsertSort.hpp; sourceTree = "<group>"; };
 		07E62D46201B239000A81145 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
@@ -99,6 +114,16 @@
 			children = (
 				07DF60A32021B95900847D82 /* Node.cpp */,
 				07DF60A42021B95900847D82 /* Node.hpp */,
+				07DF60AB2022D84500847D82 /* SortedListPublicNode.cpp */,
+				07DF60AC2022D84500847D82 /* SortedListPublicNode.hpp */,
+				07DF60AE2022E0A300847D82 /* removeListNodeLastK.cpp */,
+				07DF60AF2022E0A300847D82 /* removeListNodeLastK.hpp */,
+				07DF60B12022F4FF00847D82 /* removeMidNode.cpp */,
+				07DF60B22022F4FF00847D82 /* removeMidNode.hpp */,
+				07DF60B7202301BD00847D82 /* RemoveByRatio.cpp */,
+				07DF60B8202301BD00847D82 /* RemoveByRatio.hpp */,
+				07DF60BA202307DE00847D82 /* ReverseList.cpp */,
+				07DF60BB202307DE00847D82 /* ReverseList.hpp */,
 			);
 			path = Link;
 			sourceTree = "<group>";
@@ -232,15 +257,20 @@
 				7D9C98931F337471000856BD /* CatDogQueue.cpp in Sources */,
 				07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */,
 				7DF9E9BC1F30CC840069B1F5 /* TwoStackQueue.cpp in Sources */,
+				07DF60BC202307DE00847D82 /* ReverseList.cpp in Sources */,
+				07DF60B9202301BD00847D82 /* RemoveByRatio.cpp in Sources */,
 				07E62D4B201B293500A81145 /* utils.cpp in Sources */,
+				07DF60AD2022D84500847D82 /* SortedListPublicNode.cpp in Sources */,
 				07DF609E2021666700847D82 /* TwoStackSort.cpp in Sources */,
 				07DF609720204FAD00847D82 /* HeapSort.cpp in Sources */,
 				7D9C98961F33747A000856BD /* Pet.cpp in Sources */,
 				07DF609A202068B900847D82 /* QuickSort.cpp in Sources */,
 				07DF60A12021A4D900847D82 /* MaxWindow.cpp in Sources */,
+				07DF60B02022E0A300847D82 /* removeListNodeLastK.cpp in Sources */,
 				7D5911A61F20F199002DF19C /* MinStack.cpp in Sources */,
 				07E62D48201B239000A81145 /* MergeSort.cpp in Sources */,
 				7DF9E9BF1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp in Sources */,
+				07DF60B32022F4FF00847D82 /* removeMidNode.cpp in Sources */,
 				07DF60A52021B95900847D82 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

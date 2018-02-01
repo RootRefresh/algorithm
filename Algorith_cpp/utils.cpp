@@ -13,6 +13,21 @@ void exchange(int *a,int *b)
     *b = *b ^ c ;
     *a = *a ^ c;
 }
+void transferDoubleList(DoubleList *l)
+{
+    while (l != NULL) {
+        cout << l->val <<",";
+        l = l->next;
+    }
+}
+
+void transferList(ListNode *l)
+{
+    while (l != NULL) {
+        cout << l->val <<",";
+        l = l->next;
+    }
+}
 
 void printRange(int *a, int begin, int end)
 {

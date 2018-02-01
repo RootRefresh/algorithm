@@ -11,11 +11,11 @@
 
 #include <stdio.h>
 
-struct Node {
+typedef struct ListNode {
     int val;
-    Node *next;
-    Node():val(),next(NULL){}
-};
+    ListNode *next;
+    ListNode(int x):val(x),next(NULL){}
+}ListNode;
 
 
 #endif /* Node_hpp */

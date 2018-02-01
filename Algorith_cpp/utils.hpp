@@ -13,6 +13,21 @@
 #include <iostream>
 using namespace std;
 
+typedef struct DoubleList{
+    int val;
+    DoubleList *pre;
+    DoubleList *next;
+    DoubleList(int x):val(x),pre(NULL),next(NULL){}
+}DoubleList;
+
+typedef struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x):val(x),next(NULL){}
+}ListNode;
+
+void transferDoubleList(DoubleList *l);
+void transferList(ListNode *l);
 void exchange(int *a,int *b);
 void printRange(int *a, int begin, int end);
 void printOut(int *a, int n);
