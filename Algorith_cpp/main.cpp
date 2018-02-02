@@ -26,6 +26,8 @@
 #include "removeMidNode.hpp"
 #include "RemoveByRatio.hpp"
 #include "ReverseList.hpp"
+#include "JosephusKillOne.hpp"
+#include "IsPalindrome.hpp"
 using namespace std;
 
 void test_1_0_2()
@@ -53,8 +55,8 @@ int main(int argc, const char * argv[]) {
     ListNode *l1 = new ListNode(1);
     ListNode *l2 = new ListNode(2);
     ListNode *l3 = new ListNode(3);
-    ListNode *l4 = new ListNode(4);
-    ListNode *l5 = new ListNode(5);
+    ListNode *l4 = new ListNode(2);
+    ListNode *l5 = new ListNode(3);
 
     l1->next = l2;
     l2->next = l3;
@@ -76,8 +78,10 @@ int main(int argc, const char * argv[]) {
 
 //    ListNode *res = reverseList(ll5);
 //    ListNode *res = bestReverseList(ll5);
+//    ListNode *res = reverseSubList(l1, 2, 5);
+//    ListNode *res = josephusKill(l1, 3);
 //    transferList(res);
-
+    cout << isPalindrome(l1) << endl;
 
     DoubleList *d1 = new DoubleList(1);
     DoubleList *d2 = new DoubleList(2);
@@ -95,7 +99,7 @@ int main(int argc, const char * argv[]) {
     
 //    DoubleList *dres = removeKthNode(d1, 2);
     DoubleList *dres = reverseDoubleList(d1);
-    transferDoubleList(dres);
+//    transferDoubleList(dres);
     
 //    int arr[] = {1,2,3};
     //最小值栈

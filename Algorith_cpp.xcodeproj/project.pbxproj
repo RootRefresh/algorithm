@@ -17,6 +17,9 @@
 		07DF60B32022F4FF00847D82 /* removeMidNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60B12022F4FF00847D82 /* removeMidNode.cpp */; };
 		07DF60B9202301BD00847D82 /* RemoveByRatio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60B7202301BD00847D82 /* RemoveByRatio.cpp */; };
 		07DF60BC202307DE00847D82 /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60BA202307DE00847D82 /* ReverseList.cpp */; };
+		07DF60BF2024106100847D82 /* JosephusKillOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60BD2024106100847D82 /* JosephusKillOne.cpp */; };
+		07DF60C22024378D00847D82 /* IsPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60C02024378D00847D82 /* IsPalindrome.cpp */; };
+		07DF60C52024604A00847D82 /* CopyListWithRand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF60C32024604A00847D82 /* CopyListWithRand.cpp */; };
 		07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E62D43201B12B000A81145 /* InsertSort.cpp */; };
 		07E62D48201B239000A81145 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E62D46201B239000A81145 /* MergeSort.cpp */; };
 		07E62D4B201B293500A81145 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E62D49201B293500A81145 /* utils.cpp */; };
@@ -63,6 +66,12 @@
 		07DF60B8202301BD00847D82 /* RemoveByRatio.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveByRatio.hpp; sourceTree = "<group>"; };
 		07DF60BA202307DE00847D82 /* ReverseList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseList.cpp; sourceTree = "<group>"; };
 		07DF60BB202307DE00847D82 /* ReverseList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseList.hpp; sourceTree = "<group>"; };
+		07DF60BD2024106100847D82 /* JosephusKillOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JosephusKillOne.cpp; sourceTree = "<group>"; };
+		07DF60BE2024106100847D82 /* JosephusKillOne.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JosephusKillOne.hpp; sourceTree = "<group>"; };
+		07DF60C02024378D00847D82 /* IsPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IsPalindrome.cpp; sourceTree = "<group>"; };
+		07DF60C12024378D00847D82 /* IsPalindrome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IsPalindrome.hpp; sourceTree = "<group>"; };
+		07DF60C32024604A00847D82 /* CopyListWithRand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CopyListWithRand.cpp; sourceTree = "<group>"; };
+		07DF60C42024604A00847D82 /* CopyListWithRand.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CopyListWithRand.hpp; sourceTree = "<group>"; };
 		07E62D43201B12B000A81145 /* InsertSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertSort.cpp; sourceTree = "<group>"; };
 		07E62D44201B12B000A81145 /* InsertSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InsertSort.hpp; sourceTree = "<group>"; };
 		07E62D46201B239000A81145 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
@@ -124,6 +133,12 @@
 				07DF60B8202301BD00847D82 /* RemoveByRatio.hpp */,
 				07DF60BA202307DE00847D82 /* ReverseList.cpp */,
 				07DF60BB202307DE00847D82 /* ReverseList.hpp */,
+				07DF60BD2024106100847D82 /* JosephusKillOne.cpp */,
+				07DF60BE2024106100847D82 /* JosephusKillOne.hpp */,
+				07DF60C02024378D00847D82 /* IsPalindrome.cpp */,
+				07DF60C12024378D00847D82 /* IsPalindrome.hpp */,
+				07DF60C32024604A00847D82 /* CopyListWithRand.cpp */,
+				07DF60C42024604A00847D82 /* CopyListWithRand.hpp */,
 			);
 			path = Link;
 			sourceTree = "<group>";
@@ -257,9 +272,11 @@
 				7D9C98931F337471000856BD /* CatDogQueue.cpp in Sources */,
 				07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */,
 				7DF9E9BC1F30CC840069B1F5 /* TwoStackQueue.cpp in Sources */,
+				07DF60C22024378D00847D82 /* IsPalindrome.cpp in Sources */,
 				07DF60BC202307DE00847D82 /* ReverseList.cpp in Sources */,
 				07DF60B9202301BD00847D82 /* RemoveByRatio.cpp in Sources */,
 				07E62D4B201B293500A81145 /* utils.cpp in Sources */,
+				07DF60BF2024106100847D82 /* JosephusKillOne.cpp in Sources */,
 				07DF60AD2022D84500847D82 /* SortedListPublicNode.cpp in Sources */,
 				07DF609E2021666700847D82 /* TwoStackSort.cpp in Sources */,
 				07DF609720204FAD00847D82 /* HeapSort.cpp in Sources */,
@@ -270,6 +287,7 @@
 				7D5911A61F20F199002DF19C /* MinStack.cpp in Sources */,
 				07E62D48201B239000A81145 /* MergeSort.cpp in Sources */,
 				7DF9E9BF1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp in Sources */,
+				07DF60C52024604A00847D82 /* CopyListWithRand.cpp in Sources */,
 				07DF60B32022F4FF00847D82 /* removeMidNode.cpp in Sources */,
 				07DF60A52021B95900847D82 /* Node.cpp in Sources */,
 			);

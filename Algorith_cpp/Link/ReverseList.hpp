@@ -14,6 +14,9 @@
 
 ListNode *reverseList(ListNode *head);
 ListNode *bestReverseList(ListNode *head);
+
 DoubleList *reverseDoubleList(DoubleList *head);
+
+ListNode *reverseSubList(ListNode *head, int from, int to);
 
 #endif /* ReverseList_hpp */

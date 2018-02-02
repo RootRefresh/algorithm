@@ -57,33 +57,43 @@ ListNode *reverseSubList(ListNode *head, int from, int to)
     
     
     n = 0;
+    bool findBegin = false;
     while (cur) {
         if (n == from-1) {
             begin = cur;
+            findBegin = true;
         }
         if (n == to-1) {
             endNode = cur;
         }
-        pre = cur;
+        if (!findBegin) {
+            pre = cur;
+        }
+        
         cur = cur->next;
         n++;
     }
-    
+    ListNode *tmp = begin->next;
+    ListNode *pre2 = NULL;
+
     if (pre != NULL) {
         pre->next = endNode;
-        begin->next = endNode->next;
     }
-    ListNode *tmp = begin->next;
-    ListNode *pre = NULL;
-
-    ListNode *next = NULL;
+    begin->next = endNode->next;
+    endNode->next = NULL;
+    pre2 = begin;
+    begin = tmp;
     
-    while (begin != endNode) {
-        next = tmp->next;
-        tmp->next = begin;
-        
+    
+    while (begin != NULL) {
+        tmp = begin->next;
+        begin->next = pre2;
+        pre2 = begin;
+        begin = tmp;
     }
-    
+    if (pre == NULL) {
+        return endNode;
+    }
     return head;
 }
 

@@ -27,6 +27,7 @@ void transferList(ListNode *l)
         cout << l->val <<",";
         l = l->next;
     }
+    cout << endl;
 }
 
 void printRange(int *a, int begin, int end)
