@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A2FE5B202991C30064C5D6 /* TwoListPlus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */; };
+		07A2FE5E2029AA120064C5D6 /* CrossList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE5C2029AA120064C5D6 /* CrossList.cpp */; };
 		07DF609720204FAD00847D82 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF609520204FAD00847D82 /* HeapSort.cpp */; };
 		07DF609A202068B900847D82 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF6098202068B900847D82 /* QuickSort.cpp */; };
 		07DF609E2021666700847D82 /* TwoStackSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF609C2021666700847D82 /* TwoStackSort.cpp */; };
@@ -46,6 +48,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoListPlus.cpp; sourceTree = "<group>"; };
+		07A2FE5A202991C30064C5D6 /* TwoListPlus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoListPlus.hpp; sourceTree = "<group>"; };
+		07A2FE5C2029AA120064C5D6 /* CrossList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrossList.cpp; sourceTree = "<group>"; };
+		07A2FE5D2029AA120064C5D6 /* CrossList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrossList.hpp; sourceTree = "<group>"; };
 		07DF609520204FAD00847D82 /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
 		07DF609620204FAD00847D82 /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeapSort.hpp; sourceTree = "<group>"; };
 		07DF6098202068B900847D82 /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
@@ -139,6 +145,10 @@
 				07DF60C12024378D00847D82 /* IsPalindrome.hpp */,
 				07DF60C32024604A00847D82 /* CopyListWithRand.cpp */,
 				07DF60C42024604A00847D82 /* CopyListWithRand.hpp */,
+				07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */,
+				07A2FE5A202991C30064C5D6 /* TwoListPlus.hpp */,
+				07A2FE5C2029AA120064C5D6 /* CrossList.cpp */,
+				07A2FE5D2029AA120064C5D6 /* CrossList.hpp */,
 			);
 			path = Link;
 			sourceTree = "<group>";
@@ -267,12 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D36AAD61F37789400487213 /* Cat.cpp in Sources */,
+				07A2FE5B202991C30064C5D6 /* TwoListPlus.cpp in Sources */,
 				7DBEB8D51F0FE8AF00463A2C /* main.cpp in Sources */,
 				7D9C98991F33769C000856BD /* Dog.cpp in Sources */,
 				7D9C98931F337471000856BD /* CatDogQueue.cpp in Sources */,
 				07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */,
 				7DF9E9BC1F30CC840069B1F5 /* TwoStackQueue.cpp in Sources */,
 				07DF60C22024378D00847D82 /* IsPalindrome.cpp in Sources */,
+				07A2FE5E2029AA120064C5D6 /* CrossList.cpp in Sources */,
 				07DF60BC202307DE00847D82 /* ReverseList.cpp in Sources */,
 				07DF60B9202301BD00847D82 /* RemoveByRatio.cpp in Sources */,
 				07E62D4B201B293500A81145 /* utils.cpp in Sources */,

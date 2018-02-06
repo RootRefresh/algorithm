@@ -28,6 +28,7 @@
 #include "ReverseList.hpp"
 #include "JosephusKillOne.hpp"
 #include "IsPalindrome.hpp"
+#include "TwoListPlus.hpp"
 using namespace std;
 
 void test_1_0_2()
@@ -64,8 +65,8 @@ int main(int argc, const char * argv[]) {
     l4->next = l5;
     l5->next = NULL;
     
-    ListNode *ll5 = new ListNode(3);
-    ListNode *ll6 = new ListNode(4);
+    ListNode *ll5 = new ListNode(9);
+    ListNode *ll6 = new ListNode(8);
     ll5->next = ll6;
     ll6->next = NULL;
     
@@ -80,8 +81,9 @@ int main(int argc, const char * argv[]) {
 //    ListNode *res = bestReverseList(ll5);
 //    ListNode *res = reverseSubList(l1, 2, 5);
 //    ListNode *res = josephusKill(l1, 3);
-//    transferList(res);
-    cout << isPalindrome(l1) << endl;
+    ListNode *res = listPlus(l1, ll5);
+    transferList(res);
+//    cout << isPalindrome(l1) << endl;
 
     DoubleList *d1 = new DoubleList(1);
     DoubleList *d2 = new DoubleList(2);
