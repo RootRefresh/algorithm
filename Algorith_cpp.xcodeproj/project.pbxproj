@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079798E420A1ACD800F5B6FE /* ReveseKNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E220A1ACD800F5B6FE /* ReveseKNode.cpp */; };
 		07A2FE5B202991C30064C5D6 /* TwoListPlus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */; };
 		07A2FE5E2029AA120064C5D6 /* CrossList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE5C2029AA120064C5D6 /* CrossList.cpp */; };
 		07DF609720204FAD00847D82 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF609520204FAD00847D82 /* HeapSort.cpp */; };
@@ -48,6 +49,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		079798E220A1ACD800F5B6FE /* ReveseKNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReveseKNode.cpp; sourceTree = "<group>"; };
+		079798E320A1ACD800F5B6FE /* ReveseKNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReveseKNode.hpp; sourceTree = "<group>"; };
 		07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoListPlus.cpp; sourceTree = "<group>"; };
 		07A2FE5A202991C30064C5D6 /* TwoListPlus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoListPlus.hpp; sourceTree = "<group>"; };
 		07A2FE5C2029AA120064C5D6 /* CrossList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrossList.cpp; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				07A2FE5A202991C30064C5D6 /* TwoListPlus.hpp */,
 				07A2FE5C2029AA120064C5D6 /* CrossList.cpp */,
 				07A2FE5D2029AA120064C5D6 /* CrossList.hpp */,
+				079798E220A1ACD800F5B6FE /* ReveseKNode.cpp */,
+				079798E320A1ACD800F5B6FE /* ReveseKNode.hpp */,
 			);
 			path = Link;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				07DF60BC202307DE00847D82 /* ReverseList.cpp in Sources */,
 				07DF60B9202301BD00847D82 /* RemoveByRatio.cpp in Sources */,
 				07E62D4B201B293500A81145 /* utils.cpp in Sources */,
+				079798E420A1ACD800F5B6FE /* ReveseKNode.cpp in Sources */,
 				07DF60BF2024106100847D82 /* JosephusKillOne.cpp in Sources */,
 				07DF60AD2022D84500847D82 /* SortedListPublicNode.cpp in Sources */,
 				07DF609E2021666700847D82 /* TwoStackSort.cpp in Sources */,
