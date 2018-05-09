@@ -47,3 +47,51 @@ ListNode * reverseKNode(ListNode *head, int K)
     }
     return newHead;
 }
+//start到end 指针逆序，然后非空left指向新链表头，新链表尾指向right
+void resign2(ListNode *left, ListNode *start, ListNode *end, ListNode *right)
+{
+    ListNode *pre = start;
+    ListNode *cur = pre->next;
+    ListNode *next = NULL;
+    while (cur != right) {
+        next = cur->next;
+        cur->next = pre;
+        pre = cur;
+        cur = next;
+    }
+    
+    if (left != NULL) {
+        left->next = pre;
+    }
+    start->next = right;
+}
+
+ListNode *reverseKNode2(ListNode *head, int K)
+{
+    if (K < 2) {
+        return head;
+    }
+    
+    ListNode *pre = NULL;
+    ListNode *next = NULL;
+    ListNode *cur = head;
+    ListNode *start = NULL;
+    int count = 1;
+    
+    while (cur != NULL) {
+        next = cur->next;
+        if (count == K) {
+            start = pre == NULL? head: pre->next;
+            head  = pre == NULL? cur: head;      //找到新的头结点
+            resign2(pre, start, cur, next);
+            pre = start;
+            count = 0;
+        }
+        count++;
+        cur = next;
+    }
+    return head;
+}
+
+
+
