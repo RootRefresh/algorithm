@@ -26,6 +26,13 @@ typedef struct ListNode {
     ListNode(int x):val(x),next(NULL){}
 }ListNode;
 
+typedef struct Tree {
+    int val;
+    Tree *left;
+    Tree *right;
+    Tree(int x):val(x),left(NULL),right(NULL){}
+}Tree;
+
 void transferDoubleList(DoubleList *l);
 void transferList(ListNode *l);
 void exchange(int *a,int *b);

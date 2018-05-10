@@ -10,6 +10,8 @@
 		079798E420A1ACD800F5B6FE /* ReveseKNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E220A1ACD800F5B6FE /* ReveseKNode.cpp */; };
 		079798E720A2F22500F5B6FE /* RemoveNoOrderRepeatNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E520A2F22400F5B6FE /* RemoveNoOrderRepeatNode.cpp */; };
 		079798EA20A3006E00F5B6FE /* RemoveEqualNumNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E820A3006E00F5B6FE /* RemoveEqualNumNode.cpp */; };
+		079798ED20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798EB20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp */; };
+		079798F020A4289100F5B6FE /* SingleLinkSelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798EE20A4289100F5B6FE /* SingleLinkSelectionSort.cpp */; };
 		07A2FE5B202991C30064C5D6 /* TwoListPlus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */; };
 		07A2FE5E2029AA120064C5D6 /* CrossList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE5C2029AA120064C5D6 /* CrossList.cpp */; };
 		07DF609720204FAD00847D82 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF609520204FAD00847D82 /* HeapSort.cpp */; };
@@ -57,6 +59,10 @@
 		079798E620A2F22500F5B6FE /* RemoveNoOrderRepeatNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveNoOrderRepeatNode.hpp; sourceTree = "<group>"; };
 		079798E820A3006E00F5B6FE /* RemoveEqualNumNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveEqualNumNode.cpp; sourceTree = "<group>"; };
 		079798E920A3006E00F5B6FE /* RemoveEqualNumNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RemoveEqualNumNode.hpp; sourceTree = "<group>"; };
+		079798EB20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertSearchTreeToDoubleList.cpp; sourceTree = "<group>"; };
+		079798EC20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConvertSearchTreeToDoubleList.hpp; sourceTree = "<group>"; };
+		079798EE20A4289100F5B6FE /* SingleLinkSelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SingleLinkSelectionSort.cpp; sourceTree = "<group>"; };
+		079798EF20A4289100F5B6FE /* SingleLinkSelectionSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SingleLinkSelectionSort.hpp; sourceTree = "<group>"; };
 		07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoListPlus.cpp; sourceTree = "<group>"; };
 		07A2FE5A202991C30064C5D6 /* TwoListPlus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoListPlus.hpp; sourceTree = "<group>"; };
 		07A2FE5C2029AA120064C5D6 /* CrossList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrossList.cpp; sourceTree = "<group>"; };
@@ -164,6 +170,10 @@
 				079798E620A2F22500F5B6FE /* RemoveNoOrderRepeatNode.hpp */,
 				079798E820A3006E00F5B6FE /* RemoveEqualNumNode.cpp */,
 				079798E920A3006E00F5B6FE /* RemoveEqualNumNode.hpp */,
+				079798EB20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp */,
+				079798EC20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.hpp */,
+				079798EE20A4289100F5B6FE /* SingleLinkSelectionSort.cpp */,
+				079798EF20A4289100F5B6FE /* SingleLinkSelectionSort.hpp */,
 			);
 			path = Link;
 			sourceTree = "<group>";
@@ -298,6 +308,7 @@
 				7D9C98931F337471000856BD /* CatDogQueue.cpp in Sources */,
 				07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */,
 				7DF9E9BC1F30CC840069B1F5 /* TwoStackQueue.cpp in Sources */,
+				079798ED20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp in Sources */,
 				07DF60C22024378D00847D82 /* IsPalindrome.cpp in Sources */,
 				07A2FE5E2029AA120064C5D6 /* CrossList.cpp in Sources */,
 				07DF60BC202307DE00847D82 /* ReverseList.cpp in Sources */,
@@ -308,6 +319,7 @@
 				079798E720A2F22500F5B6FE /* RemoveNoOrderRepeatNode.cpp in Sources */,
 				07DF60AD2022D84500847D82 /* SortedListPublicNode.cpp in Sources */,
 				07DF609E2021666700847D82 /* TwoStackSort.cpp in Sources */,
+				079798F020A4289100F5B6FE /* SingleLinkSelectionSort.cpp in Sources */,
 				07DF609720204FAD00847D82 /* HeapSort.cpp in Sources */,
 				7D9C98961F33747A000856BD /* Pet.cpp in Sources */,
 				07DF609A202068B900847D82 /* QuickSort.cpp in Sources */,
