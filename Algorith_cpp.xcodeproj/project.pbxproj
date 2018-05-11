@@ -12,6 +12,9 @@
 		079798EA20A3006E00F5B6FE /* RemoveEqualNumNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E820A3006E00F5B6FE /* RemoveEqualNumNode.cpp */; };
 		079798ED20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798EB20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp */; };
 		079798F020A4289100F5B6FE /* SingleLinkSelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798EE20A4289100F5B6FE /* SingleLinkSelectionSort.cpp */; };
+		079798F320A5301400F5B6FE /* InsertNodeToSortedCircleLink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798F120A5301400F5B6FE /* InsertNodeToSortedCircleLink.cpp */; };
+		079798F620A542A800F5B6FE /* MergeTwoSortedLink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798F420A542A800F5B6FE /* MergeTwoSortedLink.cpp */; };
+		079798F920A5764900F5B6FE /* MergeLeftAndRight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798F720A5764900F5B6FE /* MergeLeftAndRight.cpp */; };
 		07A2FE5B202991C30064C5D6 /* TwoListPlus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */; };
 		07A2FE5E2029AA120064C5D6 /* CrossList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE5C2029AA120064C5D6 /* CrossList.cpp */; };
 		07DF609720204FAD00847D82 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF609520204FAD00847D82 /* HeapSort.cpp */; };
@@ -63,6 +66,12 @@
 		079798EC20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConvertSearchTreeToDoubleList.hpp; sourceTree = "<group>"; };
 		079798EE20A4289100F5B6FE /* SingleLinkSelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SingleLinkSelectionSort.cpp; sourceTree = "<group>"; };
 		079798EF20A4289100F5B6FE /* SingleLinkSelectionSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SingleLinkSelectionSort.hpp; sourceTree = "<group>"; };
+		079798F120A5301400F5B6FE /* InsertNodeToSortedCircleLink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InsertNodeToSortedCircleLink.cpp; sourceTree = "<group>"; };
+		079798F220A5301400F5B6FE /* InsertNodeToSortedCircleLink.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InsertNodeToSortedCircleLink.hpp; sourceTree = "<group>"; };
+		079798F420A542A800F5B6FE /* MergeTwoSortedLink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedLink.cpp; sourceTree = "<group>"; };
+		079798F520A542A800F5B6FE /* MergeTwoSortedLink.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeTwoSortedLink.hpp; sourceTree = "<group>"; };
+		079798F720A5764900F5B6FE /* MergeLeftAndRight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeLeftAndRight.cpp; sourceTree = "<group>"; };
+		079798F820A5764900F5B6FE /* MergeLeftAndRight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeLeftAndRight.hpp; sourceTree = "<group>"; };
 		07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoListPlus.cpp; sourceTree = "<group>"; };
 		07A2FE5A202991C30064C5D6 /* TwoListPlus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoListPlus.hpp; sourceTree = "<group>"; };
 		07A2FE5C2029AA120064C5D6 /* CrossList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrossList.cpp; sourceTree = "<group>"; };
@@ -174,6 +183,12 @@
 				079798EC20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.hpp */,
 				079798EE20A4289100F5B6FE /* SingleLinkSelectionSort.cpp */,
 				079798EF20A4289100F5B6FE /* SingleLinkSelectionSort.hpp */,
+				079798F120A5301400F5B6FE /* InsertNodeToSortedCircleLink.cpp */,
+				079798F220A5301400F5B6FE /* InsertNodeToSortedCircleLink.hpp */,
+				079798F420A542A800F5B6FE /* MergeTwoSortedLink.cpp */,
+				079798F520A542A800F5B6FE /* MergeTwoSortedLink.hpp */,
+				079798F720A5764900F5B6FE /* MergeLeftAndRight.cpp */,
+				079798F820A5764900F5B6FE /* MergeLeftAndRight.hpp */,
 			);
 			path = Link;
 			sourceTree = "<group>";
@@ -301,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079798F320A5301400F5B6FE /* InsertNodeToSortedCircleLink.cpp in Sources */,
 				7D36AAD61F37789400487213 /* Cat.cpp in Sources */,
 				07A2FE5B202991C30064C5D6 /* TwoListPlus.cpp in Sources */,
 				7DBEB8D51F0FE8AF00463A2C /* main.cpp in Sources */,
@@ -318,6 +334,7 @@
 				07DF60BF2024106100847D82 /* JosephusKillOne.cpp in Sources */,
 				079798E720A2F22500F5B6FE /* RemoveNoOrderRepeatNode.cpp in Sources */,
 				07DF60AD2022D84500847D82 /* SortedListPublicNode.cpp in Sources */,
+				079798F620A542A800F5B6FE /* MergeTwoSortedLink.cpp in Sources */,
 				07DF609E2021666700847D82 /* TwoStackSort.cpp in Sources */,
 				079798F020A4289100F5B6FE /* SingleLinkSelectionSort.cpp in Sources */,
 				07DF609720204FAD00847D82 /* HeapSort.cpp in Sources */,
@@ -331,6 +348,7 @@
 				7DF9E9BF1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp in Sources */,
 				07DF60C52024604A00847D82 /* CopyListWithRand.cpp in Sources */,
 				07DF60B32022F4FF00847D82 /* removeMidNode.cpp in Sources */,
+				079798F920A5764900F5B6FE /* MergeLeftAndRight.cpp in Sources */,
 				07DF60A52021B95900847D82 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
