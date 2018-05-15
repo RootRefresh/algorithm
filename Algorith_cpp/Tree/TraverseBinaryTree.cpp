@@ -75,3 +75,23 @@ void stackInOrder(Tree *root)
     }
 }
 
+void stackAfterOrder(Tree *root)
+{
+    Tree *cur = NULL;
+    Tree *out = NULL;
+    stack<Tree *> s;
+    s.push(root);
+    while (!s.empty()) {
+        cur = s.top();
+        if (cur->left != NULL && out != cur->left && out != cur->right) {
+            s.push(cur->left);
+        }else if (cur->right != NULL && out != cur->right){
+            s.push(cur->right);
+        }else{
+            out = s.top();
+            printf("%d",out->val);
+            s.pop();
+        }
+    }
+}
+
