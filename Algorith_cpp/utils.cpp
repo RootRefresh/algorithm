@@ -47,3 +47,9 @@ void printOut(int *a, int n)
         cout<< a[i] << endl;
     }
 }
+
+int getArrayLength(int *arr)
+{
+    return sizeof(arr)/sizeof(arr[0]);
+}
+

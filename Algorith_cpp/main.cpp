@@ -29,6 +29,10 @@
 #include "JosephusKillOne.hpp"
 #include "IsPalindrome.hpp"
 #include "TwoListPlus.hpp"
+
+#include "LongestAscSubArray.hpp"
+#include "HanoTower.hpp"
+#include "LongestSubString.hpp"
 using namespace std;
 
 void test_1_0_2()
@@ -147,7 +151,23 @@ int main(int argc, const char * argv[]) {
 //    rStack.reverse();
 //
 //    rStack.traversal();
-
-
+    
+    vector<int> tmp;
+    tmp.push_back(2);
+    tmp.push_back(1);
+    tmp.push_back(5);
+    tmp.push_back(3);
+    tmp.push_back(6);
+    tmp.push_back(4);
+    tmp.push_back(8);
+    tmp.push_back(9);
+    tmp.push_back(7);
+    vector<int> list_res = longestList(tmp);
+    for (int i = 0 ; i < list_res.size(); i++) {
+        cout << list_res[i] << ",";
+    }
+    hanoi(4);
+    string lcse_res = lcse("A1B2C","ABCd");
+    cout << "最长子串" << lcse_res << endl;
     return 0;
 }
