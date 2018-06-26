@@ -51,12 +51,10 @@ string lcse(string s1, string s2)
         }else if (n > 0 && dp[m][n-1] == dp[m][n]) {
             n--;
         } else{
-         
             res.replace(index--, 1, s1.substr(m,1));
             cout<<res<<endl;
             m--;
             n--;
-           
         }
     }
     return res;
