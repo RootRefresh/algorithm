@@ -8,6 +8,11 @@
 
 #include "LongestSubString.hpp"
 
+/*
+ *  最长公共子序列
+ *  先构建dp矩阵，dp[i][j]存 str1[0..i]与str2[0..j]的最长公共子序列的长度
+ */
+
 vector<vector<int> > dp_list(string s1, string s2)
 {
     vector<vector<int> >  dp(s1.length());

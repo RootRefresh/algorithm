@@ -13,6 +13,9 @@
 		0702B9DB20B297A10061D5CC /* LongestAscSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0702B9D920B297A10061D5CC /* LongestAscSubArray.cpp */; };
 		0702B9DE20B2BA150061D5CC /* HanoTower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0702B9DC20B2BA150061D5CC /* HanoTower.cpp */; };
 		0702B9E120B3B41E0061D5CC /* LongestSubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0702B9DF20B3B41E0061D5CC /* LongestSubString.cpp */; };
+		073A043C20E3281D00DEB239 /* NQueen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A043A20E3281D00DEB239 /* NQueen.cpp */; };
+		073A044220E3807B00DEB239 /* LongestCommonSubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A044020E3807B00DEB239 /* LongestCommonSubString.cpp */; };
+		073A044520E3945B00DEB239 /* ArrayLongestSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A044320E3945B00DEB239 /* ArrayLongestSequence.cpp */; };
 		079798E420A1ACD800F5B6FE /* ReveseKNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E220A1ACD800F5B6FE /* ReveseKNode.cpp */; };
 		079798E720A2F22500F5B6FE /* RemoveNoOrderRepeatNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E520A2F22400F5B6FE /* RemoveNoOrderRepeatNode.cpp */; };
 		079798EA20A3006E00F5B6FE /* RemoveEqualNumNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E820A3006E00F5B6FE /* RemoveEqualNumNode.cpp */; };
@@ -75,6 +78,12 @@
 		0702B9DD20B2BA150061D5CC /* HanoTower.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HanoTower.hpp; sourceTree = "<group>"; };
 		0702B9DF20B3B41E0061D5CC /* LongestSubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestSubString.cpp; sourceTree = "<group>"; };
 		0702B9E020B3B41E0061D5CC /* LongestSubString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestSubString.hpp; sourceTree = "<group>"; };
+		073A043A20E3281D00DEB239 /* NQueen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NQueen.cpp; sourceTree = "<group>"; };
+		073A043B20E3281D00DEB239 /* NQueen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NQueen.hpp; sourceTree = "<group>"; };
+		073A044020E3807B00DEB239 /* LongestCommonSubString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestCommonSubString.cpp; sourceTree = "<group>"; };
+		073A044120E3807B00DEB239 /* LongestCommonSubString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestCommonSubString.hpp; sourceTree = "<group>"; };
+		073A044320E3945B00DEB239 /* ArrayLongestSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayLongestSequence.cpp; sourceTree = "<group>"; };
+		073A044420E3945B00DEB239 /* ArrayLongestSequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayLongestSequence.hpp; sourceTree = "<group>"; };
 		079798E220A1ACD800F5B6FE /* ReveseKNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReveseKNode.cpp; sourceTree = "<group>"; };
 		079798E320A1ACD800F5B6FE /* ReveseKNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReveseKNode.hpp; sourceTree = "<group>"; };
 		079798E520A2F22400F5B6FE /* RemoveNoOrderRepeatNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveNoOrderRepeatNode.cpp; sourceTree = "<group>"; };
@@ -171,8 +180,14 @@
 				0702B9DA20B297A10061D5CC /* LongestAscSubArray.hpp */,
 				0702B9DF20B3B41E0061D5CC /* LongestSubString.cpp */,
 				0702B9E020B3B41E0061D5CC /* LongestSubString.hpp */,
+				073A044020E3807B00DEB239 /* LongestCommonSubString.cpp */,
+				073A044120E3807B00DEB239 /* LongestCommonSubString.hpp */,
+				073A044320E3945B00DEB239 /* ArrayLongestSequence.cpp */,
+				073A044420E3945B00DEB239 /* ArrayLongestSequence.hpp */,
 				0702B9DC20B2BA150061D5CC /* HanoTower.cpp */,
 				0702B9DD20B2BA150061D5CC /* HanoTower.hpp */,
+				073A043A20E3281D00DEB239 /* NQueen.cpp */,
+				073A043B20E3281D00DEB239 /* NQueen.hpp */,
 			);
 			path = Recursion_DP;
 			sourceTree = "<group>";
@@ -377,8 +392,10 @@
 				07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */,
 				7DF9E9BC1F30CC840069B1F5 /* TwoStackQueue.cpp in Sources */,
 				0702B9DB20B297A10061D5CC /* LongestAscSubArray.cpp in Sources */,
+				073A044220E3807B00DEB239 /* LongestCommonSubString.cpp in Sources */,
 				079798ED20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp in Sources */,
 				079798FD20A9391A00F5B6FE /* TraverseBinaryTree.cpp in Sources */,
+				073A044520E3945B00DEB239 /* ArrayLongestSequence.cpp in Sources */,
 				07DF60C22024378D00847D82 /* IsPalindrome.cpp in Sources */,
 				0702B9D820AEB06C0061D5CC /* changeMoneyMethodCount.cpp in Sources */,
 				07A2FE5E2029AA120064C5D6 /* CrossList.cpp in Sources */,
@@ -386,6 +403,7 @@
 				07DF60B9202301BD00847D82 /* RemoveByRatio.cpp in Sources */,
 				07E62D4B201B293500A81145 /* utils.cpp in Sources */,
 				079798E420A1ACD800F5B6FE /* ReveseKNode.cpp in Sources */,
+				073A043C20E3281D00DEB239 /* NQueen.cpp in Sources */,
 				0702B9D520AD804E0061D5CC /* MatrixMinPath.cpp in Sources */,
 				07DF60BF2024106100847D82 /* JosephusKillOne.cpp in Sources */,
 				079798E720A2F22500F5B6FE /* RemoveNoOrderRepeatNode.cpp in Sources */,
