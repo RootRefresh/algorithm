@@ -37,6 +37,9 @@
 #include "LongestCommonSubString.hpp"
 #include "ArrayLongestSequence.hpp"
 #include "NQueen.hpp"
+#include "JumpGame.hpp"
+#include "IsDeformation.hpp"
+#include "SumNumInString.hpp"
 using namespace std;
 
 void test_1_0_2()
@@ -161,11 +164,11 @@ int main(int argc, const char * argv[]) {
     tmp.push_back(1);
     tmp.push_back(5);
     tmp.push_back(3);
-//    tmp.push_back(6);
-//    tmp.push_back(4);
-//    tmp.push_back(8);
-//    tmp.push_back(9);
-//    tmp.push_back(7);
+    tmp.push_back(6);
+    tmp.push_back(4);
+    tmp.push_back(8);
+    tmp.push_back(9);
+    tmp.push_back(7);
     vector<int> list_res = longestList(tmp);
     for (int i = 0 ; i < list_res.size(); i++) {
         cout << list_res[i] << ",";
@@ -176,6 +179,8 @@ int main(int argc, const char * argv[]) {
     cout << "最长公共子串" << lcst1("nullptr","bc3") << endl;
     cout<< "数组中最长子序列" << longestLength(tmp) << endl;
     cout<< "N皇后"<<nqueen(4)<<endl;
-
+    cout<< "跳跃游戏" << jumpStep(tmp) << endl;
+    cout<< "互为变形数"<< isDeformation("", "") << endl;
+    cout<< "字符串中数字子串求和"<<numSum("a-21ba30") << endl;
     return 0;
 }

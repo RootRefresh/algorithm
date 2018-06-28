@@ -8,17 +8,6 @@
 
 #include "ArrayLongestSequence.hpp"
 #include "map"
-
-int mergeArr(map<int,int> hashMap, int less, int more)
-{
-    
-    int l  = less-hashMap[less] + 1;
-    int r  = more+hashMap[more] - 1;
-    int len = r-l+1;
-    hashMap[less] = len;
-    hashMap[more] = len;
-    return len;
-}
 void transMap(map<int,int> m)
 {
     map<int,int>::iterator iter;
@@ -26,6 +15,23 @@ void transMap(map<int,int> m)
         cout<<iter->first<<":"<<iter->second<<endl;
     }
 }
+
+int mergeArr(map<int,int> &hashMap, int less, int more)
+{
+    
+    int l  = less-hashMap[less] + 1;
+    int r  = more+hashMap[more] - 1;
+    int len = r-l+1;
+    cout<<"begin：";
+    transMap(hashMap);
+    hashMap[less] = len;
+    hashMap[more] = len;
+    cout<<"end：";
+    transMap(hashMap);
+
+    return len;
+}
+
 int longestLength(vector<int> arr)
 {
     if (arr.empty()) {
@@ -37,7 +43,6 @@ int longestLength(vector<int> arr)
     for (int i = 0; i < arr.size(); i++) {
         if (hashMap.find(arr[i]) == hashMap.end()) {
             hashMap[arr[i]] = 1;
-            transMap(hashMap);
             if (hashMap.find(arr[i]-1) != hashMap.end()) {
                 kMax = max(kMax, mergeArr(hashMap, arr[i]-1, arr[i]));
             }

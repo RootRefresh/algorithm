@@ -16,6 +16,9 @@
 		073A043C20E3281D00DEB239 /* NQueen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A043A20E3281D00DEB239 /* NQueen.cpp */; };
 		073A044220E3807B00DEB239 /* LongestCommonSubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A044020E3807B00DEB239 /* LongestCommonSubString.cpp */; };
 		073A044520E3945B00DEB239 /* ArrayLongestSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A044320E3945B00DEB239 /* ArrayLongestSequence.cpp */; };
+		073A044820E4AF1D00DEB239 /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A044620E4AF1D00DEB239 /* JumpGame.cpp */; };
+		07971E7B20E4E21800FB613D /* IsDeformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07971E7920E4E21800FB613D /* IsDeformation.cpp */; };
+		07971E7E20E4E8D400FB613D /* SumNumInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07971E7C20E4E8D400FB613D /* SumNumInString.cpp */; };
 		079798E420A1ACD800F5B6FE /* ReveseKNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E220A1ACD800F5B6FE /* ReveseKNode.cpp */; };
 		079798E720A2F22500F5B6FE /* RemoveNoOrderRepeatNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E520A2F22400F5B6FE /* RemoveNoOrderRepeatNode.cpp */; };
 		079798EA20A3006E00F5B6FE /* RemoveEqualNumNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E820A3006E00F5B6FE /* RemoveEqualNumNode.cpp */; };
@@ -84,6 +87,12 @@
 		073A044120E3807B00DEB239 /* LongestCommonSubString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestCommonSubString.hpp; sourceTree = "<group>"; };
 		073A044320E3945B00DEB239 /* ArrayLongestSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayLongestSequence.cpp; sourceTree = "<group>"; };
 		073A044420E3945B00DEB239 /* ArrayLongestSequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayLongestSequence.hpp; sourceTree = "<group>"; };
+		073A044620E4AF1D00DEB239 /* JumpGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
+		073A044720E4AF1D00DEB239 /* JumpGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JumpGame.hpp; sourceTree = "<group>"; };
+		07971E7920E4E21800FB613D /* IsDeformation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IsDeformation.cpp; sourceTree = "<group>"; };
+		07971E7A20E4E21800FB613D /* IsDeformation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IsDeformation.hpp; sourceTree = "<group>"; };
+		07971E7C20E4E8D400FB613D /* SumNumInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumNumInString.cpp; sourceTree = "<group>"; };
+		07971E7D20E4E8D400FB613D /* SumNumInString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SumNumInString.hpp; sourceTree = "<group>"; };
 		079798E220A1ACD800F5B6FE /* ReveseKNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReveseKNode.cpp; sourceTree = "<group>"; };
 		079798E320A1ACD800F5B6FE /* ReveseKNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReveseKNode.hpp; sourceTree = "<group>"; };
 		079798E520A2F22400F5B6FE /* RemoveNoOrderRepeatNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveNoOrderRepeatNode.cpp; sourceTree = "<group>"; };
@@ -188,8 +197,21 @@
 				0702B9DD20B2BA150061D5CC /* HanoTower.hpp */,
 				073A043A20E3281D00DEB239 /* NQueen.cpp */,
 				073A043B20E3281D00DEB239 /* NQueen.hpp */,
+				073A044620E4AF1D00DEB239 /* JumpGame.cpp */,
+				073A044720E4AF1D00DEB239 /* JumpGame.hpp */,
 			);
 			path = Recursion_DP;
+			sourceTree = "<group>";
+		};
+		07971E7820E4E19100FB613D /* String */ = {
+			isa = PBXGroup;
+			children = (
+				07971E7920E4E21800FB613D /* IsDeformation.cpp */,
+				07971E7A20E4E21800FB613D /* IsDeformation.hpp */,
+				07971E7C20E4E8D400FB613D /* SumNumInString.cpp */,
+				07971E7D20E4E8D400FB613D /* SumNumInString.hpp */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		079798FA20A9387B00F5B6FE /* Tree */ = {
@@ -306,6 +328,7 @@
 		7DBEB8D31F0FE8AF00463A2C /* Algorith_cpp */ = {
 			isa = PBXGroup;
 			children = (
+				07971E7820E4E19100FB613D /* String */,
 				0702B9CF20AD283E0061D5CC /* Recursion_DP */,
 				079798FA20A9387B00F5B6FE /* Tree */,
 				07DF60A22021B92A00847D82 /* Link */,
@@ -391,6 +414,7 @@
 				7D9C98931F337471000856BD /* CatDogQueue.cpp in Sources */,
 				07E62D45201B12B000A81145 /* InsertSort.cpp in Sources */,
 				7DF9E9BC1F30CC840069B1F5 /* TwoStackQueue.cpp in Sources */,
+				07971E7E20E4E8D400FB613D /* SumNumInString.cpp in Sources */,
 				0702B9DB20B297A10061D5CC /* LongestAscSubArray.cpp in Sources */,
 				073A044220E3807B00DEB239 /* LongestCommonSubString.cpp in Sources */,
 				079798ED20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp in Sources */,
@@ -402,6 +426,7 @@
 				07DF60BC202307DE00847D82 /* ReverseList.cpp in Sources */,
 				07DF60B9202301BD00847D82 /* RemoveByRatio.cpp in Sources */,
 				07E62D4B201B293500A81145 /* utils.cpp in Sources */,
+				073A044820E4AF1D00DEB239 /* JumpGame.cpp in Sources */,
 				079798E420A1ACD800F5B6FE /* ReveseKNode.cpp in Sources */,
 				073A043C20E3281D00DEB239 /* NQueen.cpp in Sources */,
 				0702B9D520AD804E0061D5CC /* MatrixMinPath.cpp in Sources */,
@@ -409,6 +434,7 @@
 				079798E720A2F22500F5B6FE /* RemoveNoOrderRepeatNode.cpp in Sources */,
 				0702B9DE20B2BA150061D5CC /* HanoTower.cpp in Sources */,
 				07DF60AD2022D84500847D82 /* SortedListPublicNode.cpp in Sources */,
+				07971E7B20E4E21800FB613D /* IsDeformation.cpp in Sources */,
 				079798F620A542A800F5B6FE /* MergeTwoSortedLink.cpp in Sources */,
 				07DF609E2021666700847D82 /* TwoStackSort.cpp in Sources */,
 				079798F020A4289100F5B6FE /* SingleLinkSelectionSort.cpp in Sources */,
