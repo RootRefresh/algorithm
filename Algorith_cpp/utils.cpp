@@ -44,7 +44,10 @@ void printRange(int *a, int begin, int end)
 void printOut(int *a, int n)
 {
     for (int i = 0; i < n; i++) {
-        cout<< a[i] << endl;
+        cout<< a[i] << ",";
+        if (i == n-1) {
+            cout<<endl;
+        }
     }
 }
 

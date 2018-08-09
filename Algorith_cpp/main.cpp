@@ -40,6 +40,10 @@
 #include "JumpGame.hpp"
 #include "IsDeformation.hpp"
 #include "SumNumInString.hpp"
+#include "reverseString.hpp"
+#include "kQuickSort.hpp"
+#include "BubbleSort.hpp"
+
 using namespace std;
 
 void test_1_0_2()
@@ -54,11 +58,16 @@ void test_1_0_2()
 int main(int argc, const char * argv[]) {
   
     int arr2[] = {3,6,2,8,5,4};
+    int arr3[] = {1,2,3,6,2,8,5,4};
+
 //    insertSort(arr2, 6);
 //    mergeSort(arr2, 0, 5);
 //    heapSort(arr2, 6);
 //    quickSort(arr2, 0, 5);
-    
+//     kQuickSort(arr3, 0, 7);
+    bubbleSort(arr3, 8);
+//     printOut(arr3, 8);
+
 //    twoStackSort(arr2, 6);
 //    int *tmpArr = getMaxWindow(arr2, 6, 2);
 //    printOut(tmpArr , 5);
@@ -182,5 +191,6 @@ int main(int argc, const char * argv[]) {
     cout<< "跳跃游戏" << jumpStep(tmp) << endl;
     cout<< "互为变形数"<< isDeformation("", "") << endl;
     cout<< "字符串中数字子串求和"<<numSum("a-21ba30") << endl;
+    cout<< reverseString("HelloCpp")<<endl;
     return 0;
 }

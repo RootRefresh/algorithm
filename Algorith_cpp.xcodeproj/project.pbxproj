@@ -17,6 +17,8 @@
 		073A044220E3807B00DEB239 /* LongestCommonSubString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A044020E3807B00DEB239 /* LongestCommonSubString.cpp */; };
 		073A044520E3945B00DEB239 /* ArrayLongestSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A044320E3945B00DEB239 /* ArrayLongestSequence.cpp */; };
 		073A044820E4AF1D00DEB239 /* JumpGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 073A044620E4AF1D00DEB239 /* JumpGame.cpp */; };
+		076446AC211C147B00D3D6A4 /* kQuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076446AA211C147B00D3D6A4 /* kQuickSort.cpp */; };
+		076446AF211C483C00D3D6A4 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076446AD211C483C00D3D6A4 /* BubbleSort.cpp */; };
 		07971E7B20E4E21800FB613D /* IsDeformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07971E7920E4E21800FB613D /* IsDeformation.cpp */; };
 		07971E7E20E4E8D400FB613D /* SumNumInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07971E7C20E4E8D400FB613D /* SumNumInString.cpp */; };
 		079798E420A1ACD800F5B6FE /* ReveseKNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798E220A1ACD800F5B6FE /* ReveseKNode.cpp */; };
@@ -30,6 +32,7 @@
 		079798FD20A9391A00F5B6FE /* TraverseBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079798FB20A9391A00F5B6FE /* TraverseBinaryTree.cpp */; };
 		07A2FE5B202991C30064C5D6 /* TwoListPlus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE59202991C30064C5D6 /* TwoListPlus.cpp */; };
 		07A2FE5E2029AA120064C5D6 /* CrossList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A2FE5C2029AA120064C5D6 /* CrossList.cpp */; };
+		07B323A320FC71BD00964093 /* reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B323A120FC71BD00964093 /* reverseString.cpp */; };
 		07DF609720204FAD00847D82 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF609520204FAD00847D82 /* HeapSort.cpp */; };
 		07DF609A202068B900847D82 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF6098202068B900847D82 /* QuickSort.cpp */; };
 		07DF609E2021666700847D82 /* TwoStackSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07DF609C2021666700847D82 /* TwoStackSort.cpp */; };
@@ -89,6 +92,10 @@
 		073A044420E3945B00DEB239 /* ArrayLongestSequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayLongestSequence.hpp; sourceTree = "<group>"; };
 		073A044620E4AF1D00DEB239 /* JumpGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JumpGame.cpp; sourceTree = "<group>"; };
 		073A044720E4AF1D00DEB239 /* JumpGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JumpGame.hpp; sourceTree = "<group>"; };
+		076446AA211C147B00D3D6A4 /* kQuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kQuickSort.cpp; sourceTree = "<group>"; };
+		076446AB211C147B00D3D6A4 /* kQuickSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kQuickSort.hpp; sourceTree = "<group>"; };
+		076446AD211C483C00D3D6A4 /* BubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
+		076446AE211C483C00D3D6A4 /* BubbleSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BubbleSort.hpp; sourceTree = "<group>"; };
 		07971E7920E4E21800FB613D /* IsDeformation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IsDeformation.cpp; sourceTree = "<group>"; };
 		07971E7A20E4E21800FB613D /* IsDeformation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IsDeformation.hpp; sourceTree = "<group>"; };
 		07971E7C20E4E8D400FB613D /* SumNumInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumNumInString.cpp; sourceTree = "<group>"; };
@@ -115,6 +122,8 @@
 		07A2FE5A202991C30064C5D6 /* TwoListPlus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoListPlus.hpp; sourceTree = "<group>"; };
 		07A2FE5C2029AA120064C5D6 /* CrossList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CrossList.cpp; sourceTree = "<group>"; };
 		07A2FE5D2029AA120064C5D6 /* CrossList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrossList.hpp; sourceTree = "<group>"; };
+		07B323A120FC71BD00964093 /* reverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseString.cpp; sourceTree = "<group>"; };
+		07B323A220FC71BD00964093 /* reverseString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = reverseString.hpp; sourceTree = "<group>"; };
 		07DF609520204FAD00847D82 /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
 		07DF609620204FAD00847D82 /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeapSort.hpp; sourceTree = "<group>"; };
 		07DF6098202068B900847D82 /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
@@ -210,6 +219,8 @@
 				07971E7A20E4E21800FB613D /* IsDeformation.hpp */,
 				07971E7C20E4E8D400FB613D /* SumNumInString.cpp */,
 				07971E7D20E4E8D400FB613D /* SumNumInString.hpp */,
+				07B323A120FC71BD00964093 /* reverseString.cpp */,
+				07B323A220FC71BD00964093 /* reverseString.hpp */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -285,11 +296,15 @@
 				07E62D43201B12B000A81145 /* InsertSort.cpp */,
 				07E62D44201B12B000A81145 /* InsertSort.hpp */,
 				07E62D46201B239000A81145 /* MergeSort.cpp */,
+				076446AD211C483C00D3D6A4 /* BubbleSort.cpp */,
+				076446AE211C483C00D3D6A4 /* BubbleSort.hpp */,
 				07E62D47201B239000A81145 /* MergeSort.hpp */,
 				07DF609520204FAD00847D82 /* HeapSort.cpp */,
 				07DF609620204FAD00847D82 /* HeapSort.hpp */,
 				07DF6098202068B900847D82 /* QuickSort.cpp */,
 				07DF6099202068B900847D82 /* QuickSort.hpp */,
+				076446AA211C147B00D3D6A4 /* kQuickSort.cpp */,
+				076446AB211C147B00D3D6A4 /* kQuickSort.hpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -418,6 +433,7 @@
 				0702B9DB20B297A10061D5CC /* LongestAscSubArray.cpp in Sources */,
 				073A044220E3807B00DEB239 /* LongestCommonSubString.cpp in Sources */,
 				079798ED20A3F08300F5B6FE /* ConvertSearchTreeToDoubleList.cpp in Sources */,
+				076446AC211C147B00D3D6A4 /* kQuickSort.cpp in Sources */,
 				079798FD20A9391A00F5B6FE /* TraverseBinaryTree.cpp in Sources */,
 				073A044520E3945B00DEB239 /* ArrayLongestSequence.cpp in Sources */,
 				07DF60C22024378D00847D82 /* IsPalindrome.cpp in Sources */,
@@ -426,6 +442,7 @@
 				07DF60BC202307DE00847D82 /* ReverseList.cpp in Sources */,
 				07DF60B9202301BD00847D82 /* RemoveByRatio.cpp in Sources */,
 				07E62D4B201B293500A81145 /* utils.cpp in Sources */,
+				07B323A320FC71BD00964093 /* reverseString.cpp in Sources */,
 				073A044820E4AF1D00DEB239 /* JumpGame.cpp in Sources */,
 				079798E420A1ACD800F5B6FE /* ReveseKNode.cpp in Sources */,
 				073A043C20E3281D00DEB239 /* NQueen.cpp in Sources */,
@@ -448,6 +465,7 @@
 				07E62D48201B239000A81145 /* MergeSort.cpp in Sources */,
 				7DF9E9BF1F30D6A60069B1F5 /* ReverseStackByRecursion.cpp in Sources */,
 				07DF60C52024604A00847D82 /* CopyListWithRand.cpp in Sources */,
+				076446AF211C483C00D3D6A4 /* BubbleSort.cpp in Sources */,
 				07DF60B32022F4FF00847D82 /* removeMidNode.cpp in Sources */,
 				0702B9D220AD28BA0061D5CC /* Fib.cpp in Sources */,
 				079798F920A5764900F5B6FE /* MergeLeftAndRight.cpp in Sources */,
