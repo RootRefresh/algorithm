@@ -43,6 +43,7 @@
 #include "reverseString.hpp"
 #include "kQuickSort.hpp"
 #include "BubbleSort.hpp"
+#include "TraverseBinaryTree.hpp"
 
 using namespace std;
 
@@ -71,7 +72,14 @@ int main(int argc, const char * argv[]) {
 //    twoStackSort(arr2, 6);
 //    int *tmpArr = getMaxWindow(arr2, 6, 2);
 //    printOut(tmpArr , 5);
-    
+    Tree *r1 = new Tree(1);
+    Tree *r2 = new Tree(2);
+    Tree *r3 = new Tree(3);
+    Tree *r4 = new Tree(4);
+    r1->left = r2;
+    r1->right = r3;
+    r2->left  = r4;
+    cout << "max Dis "<<maxDistance(r1) << endl;
 //链表
     ListNode *l1 = new ListNode(1);
     ListNode *l2 = new ListNode(2);
@@ -192,5 +200,7 @@ int main(int argc, const char * argv[]) {
     cout<< "互为变形数"<< isDeformation("", "") << endl;
     cout<< "字符串中数字子串求和"<<numSum("a-21ba30") << endl;
     cout<< reverseString("HelloCpp")<<endl;
+    
+    cout << numTrees(2)<< endl;
     return 0;
 }

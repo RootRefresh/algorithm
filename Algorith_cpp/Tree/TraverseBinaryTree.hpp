@@ -11,4 +11,8 @@
 
 #include <stdio.h>
 #include "utils.hpp"
+
+int numTrees(int n);
+int maxDistance(Tree *root);
+
 #endif /* TraverseBinaryTree_hpp */

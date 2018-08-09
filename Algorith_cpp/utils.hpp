@@ -13,6 +13,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <map>
 using namespace std;
 
 typedef struct DoubleList{
@@ -32,7 +33,9 @@ typedef struct Tree {
     int val;
     Tree *left;
     Tree *right;
-    Tree(int x):val(x),left(NULL),right(NULL){}
+    Tree *parent;
+
+    Tree(int x):val(x),left(NULL),right(NULL),parent(NULL){}
 }Tree;
 
 void transferDoubleList(DoubleList *l);
